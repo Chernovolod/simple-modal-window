@@ -61,3 +61,5 @@ var components = function () {
         ModalWindow: ModalWindow,
     }
 }();
+
+module.exports = components;
