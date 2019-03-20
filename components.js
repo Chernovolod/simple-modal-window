@@ -22,7 +22,7 @@ var components = function () {
         var submitButton = document.createElement('button');
         var cancelButton = document.createElement('button');
         var hideHandler = function (e) {
-            if (e.target !== modalTitle && e.target !== modalContent && e.target !== innerContent) {
+            if (e.target === closeButton || e.target === modalWindow) {
                 this.hide()
             }
         };
