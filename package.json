@@ -1,6 +1,6 @@
 {
   "name": "simple-modal-window",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple modal window created to use as a 3-rd party library in React project",
   "main": "components.js",
   "scripts": {
